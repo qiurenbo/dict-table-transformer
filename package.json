@@ -1,0 +1,27 @@
+{
+  "name": "doctable",
+  "version": "0.1.0",
+  "description": "transform doc to table and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiurenbo/doctable.git"
+  },
+  "keywords": [
+    "doc",
+    "table",
+    "transformer"
+  ],
+  "author": "qiurenbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiurenbo/doctable/issues"
+  },
+  "homepage": "https://github.com/qiurenbo/doctable#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
