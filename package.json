@@ -1,5 +1,5 @@
 {
-  "name": "doc-table",
+  "name": "dtransformer",
   "version": "0.1.0",
   "description": "transform doc to table and vice versa",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qiurenbo/doc-table.git"
+    "url": "git+https://github.com/qiurenbo/dtransformer.git"
   },
   "keywords": [
     "doc",
@@ -18,9 +18,9 @@
   "author": "qiurenbo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qiurenbo/doc-table/issues"
+    "url": "https://github.com/qiurenbo/dtransformer/issues"
   },
-  "homepage": "https://github.com/qiurenbo/doc-table#readme",
+  "homepage": "https://github.com/qiurenbo/dtransformer#readme",
   "devDependencies": {
     "jest": "^24.8.0"
   }

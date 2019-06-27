@@ -1,13 +1,13 @@
-# doc-table
+# dtransformer
 transform doc to table and vice versa
 ## Install
 ```
-$ npm install doc-table
+$ npm install dtransformer
 ```
 
 ## Usage
 ```
-const doctable = require('doc-table');
+const doctable = require('dtransformer');
 
 
 const docs = [{'A': 1, 'B': 2, 'C':3}, {'A': 4, 'B': 3, 'C':5}];
