@@ -1,13 +1,13 @@
-# doctable
+# doc-table
 transform doc to table and vice versa
 ## Install
 ```
-$ npm install doctable
+$ npm install doc-table
 ```
 
 ## Usage
 ```
-const doctable = require('doctable');
+const doctable = require('doc-table');
 
 
 const docs = [{'A': 1, 'B': 2, 'C':3}, {'A': 4, 'B': 3, 'C':5}];
@@ -25,4 +25,4 @@ const docs = doctable.table2docs(table);
 ```
 
 ## License
-MIT © qiurenbo
+MIT © [qiurenbo](https://www.imwhite.com.cn/)

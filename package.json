@@ -1,5 +1,5 @@
 {
-  "name": "doctable",
+  "name": "doc-table",
   "version": "0.1.0",
   "description": "transform doc to table and vice versa",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qiurenbo/doctable.git"
+    "url": "git+https://github.com/qiurenbo/doc-table.git"
   },
   "keywords": [
     "doc",
@@ -18,9 +18,9 @@
   "author": "qiurenbo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qiurenbo/doctable/issues"
+    "url": "https://github.com/qiurenbo/doc-table/issues"
   },
-  "homepage": "https://github.com/qiurenbo/doctable#readme",
+  "homepage": "https://github.com/qiurenbo/doc-table#readme",
   "devDependencies": {
     "jest": "^24.8.0"
   }
