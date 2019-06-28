@@ -26,8 +26,11 @@ const docs2table = (docs) => {
                 else{
                     throw new Error('docs aren\'t under same schema');
                 }
-                
             }
+        }
+
+        if(header.length !== keys.length){
+            throw new Error('docs aren\'t under same schema');
         }
 
         table.push(row);

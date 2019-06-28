@@ -21,6 +21,11 @@ describe('docs2table',() => {
             const docs = [{'A': 1, 'B': 2, 'C':3}, {'B': 1, 'A': 2, 'C':3}];
             expect(() => {dttrans.docs2table(docs)}).toThrowError('docs aren\'t under same schema');
         });
+
+        test('properties\'s number are not same', () => {
+            const docs = [{'A': 1, 'B': 2, 'C':3}, {'A': 4, 'B': 3}];
+            expect(() => {dttrans.docs2table(docs)}).toThrowError('docs aren\'t under same schema');
+        });
     })
 
 });
