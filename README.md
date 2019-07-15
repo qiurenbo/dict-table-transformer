@@ -1,4 +1,4 @@
-# dttrans
+# dict-table-transformer
 transform doc to table and vice versa
 ## Install
 ```
